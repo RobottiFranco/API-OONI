@@ -1,6 +1,8 @@
 import requests
 import json
 
+#Nota: El metodo trae todos los nombres e id de las pruebas que se pueden realizar en OONI
+
 # Configura la URL base de la API de OONI
 base_url = "https://api.ooni.io/api/_/"
 

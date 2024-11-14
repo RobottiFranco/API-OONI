@@ -1,6 +1,8 @@
 import requests
 import json
 
+#Nota: El metodo enumera todos los dominios en las listas de prueba con su recuento de mediciones de OONI
+
 # Configura la URL base de la API de OONI
 base_url = "https://api.ooni.io/api/_/"
 

@@ -1,6 +1,8 @@
 import requests
 import json
 
+#Nota: El metodo trae el codigo, el nombre y el count de cada pais 
+
 # Configura la URL base de la API de OONI
 base_url = "https://api.ooni.io/api/_/"
 

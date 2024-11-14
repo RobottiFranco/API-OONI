@@ -1,0 +1,152 @@
+[
+    {
+        "cnt": 2,
+        "org_name": "Uruguay",
+        "probe_asn": 1797
+    },
+    {
+        "cnt": 1380492,
+        "org_name": "Telecom Argentina S.A.",
+        "probe_asn": 7303
+    },
+    {
+        "cnt": 25587,
+        "org_name": "Telefónica Móviles Argentina S.A. (Movistar Argentina)",
+        "probe_asn": 11315
+    },
+    {
+        "cnt": 1,
+        "org_name": "Telespazio Argentina",
+        "probe_asn": 26593
+    },
+    {
+        "cnt": 484,
+        "org_name": "Telefonica Moviles El Salvador S.A. de C.V.",
+        "probe_asn": 12127
+    },
+    {
+        "cnt": 471,
+        "org_name": "Telecom Argentina S.A.",
+        "probe_asn": 26608
+    },
+    {
+        "cnt": 8282,
+        "org_name": "Telefonica Moviles El Salvador S.A. de C.V.",
+        "probe_asn": 263783
+    },
+    {
+        "cnt": 3111,
+        "org_name": "Telefonica de Argentina",
+        "probe_asn": 10834
+    },
+    {
+        "cnt": 37671018,
+        "org_name": "CANTV Servicios, Venezuela",
+        "probe_asn": 8048
+    },
+    {
+        "cnt": 720,
+        "org_name": "Emerging Markets Communications de Argentina S.R.L",
+        "probe_asn": 27822
+    },
+    {
+        "cnt": 286436,
+        "org_name": "Telecom Argentina S.A.",
+        "probe_asn": 10481
+    },
+    {
+        "cnt": 621970,
+        "org_name": "Telecom Argentina S.A.",
+        "probe_asn": 10318
+    },
+    {
+        "cnt": 3,
+        "org_name": "Honduras Internet, S.A.",
+        "probe_asn": 269880
+    },
+    {
+        "cnt": 8137,
+        "org_name": "ARSAT - Empresa Argentina de Soluciones Satelitales S.A.",
+        "probe_asn": 52361
+    },
+    {
+        "cnt": 21655,
+        "org_name": "Telenetwork de El Salvador",
+        "probe_asn": 262179
+    },
+    {
+        "cnt": 155,
+        "org_name": "Interdotnet Argentina S.A.",
+        "probe_asn": 11750
+    },
+    {
+        "cnt": 21062,
+        "org_name": "IFX Networks Venezuela C.A.",
+        "probe_asn": 8053
+    },
+    {
+        "cnt": 1,
+        "org_name": "Telecom Argentina S.A.",
+        "probe_asn": 27871
+    },
+    {
+        "cnt": 1,
+        "org_name": "Toyota Argentina S.A.",
+        "probe_asn": 28034
+    },
+    {
+        "cnt": 594,
+        "org_name": "Silica Networks Argentina S.A.",
+        "probe_asn": 7049
+    },
+    {
+        "cnt": 15357,
+        "org_name": "AMX Argentina S.A.",
+        "probe_asn": 19037
+    },
+    {
+        "cnt": 63,
+        "org_name": "Universidad Central de Venezuela",
+        "probe_asn": 19192
+    },
+    {
+        "cnt": 73,
+        "org_name": "Convergia Argentina S.A.",
+        "probe_asn": 61484
+    },
+    {
+        "cnt": 4672,
+        "org_name": "Telefonica Moviles del Uruguay SA",
+        "probe_asn": 19422
+    },
+    {
+        "cnt": 764,
+        "org_name": "TotalCom Venezuela C.A.",
+        "probe_asn": 264778
+    },
+    {
+        "cnt": 258,
+        "org_name": "Dese Technologies Argentina S.A.",
+        "probe_asn": 262194
+    },
+    {
+        "cnt": 20855,
+        "org_name": "Telemovil El Salvador S.A.",
+        "probe_asn": 17079
+    },
+    {
+        "cnt": 495,
+        "org_name": "El Salvador Network, S. A.",
+        "probe_asn": 16906
+    },
+    {
+        "cnt": 29,
+        "org_name": "Omnivision Argentina",
+        "probe_asn": 27826
+    },
+    {
+        "cnt": 899534,
+        "org_name": "Telefonica de Argentina",
+        "probe_asn": 22927
+    }
+]
