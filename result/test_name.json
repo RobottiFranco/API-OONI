@@ -1,0 +1,100 @@
+{
+    "test_names": [
+        {
+            "id": "bridge_reachability",
+            "name": "Bridge Reachability"
+        },
+        {
+            "id": "dash",
+            "name": "DASH"
+        },
+        {
+            "id": "dns_consistency",
+            "name": "DNS Consistency"
+        },
+        {
+            "id": "dnscheck",
+            "name": "DNS Check"
+        },
+        {
+            "id": "facebook_messenger",
+            "name": "Facebook Messenger"
+        },
+        {
+            "id": "http_header_field_manipulation",
+            "name": "HTTP Header Field Manipulation"
+        },
+        {
+            "id": "http_host",
+            "name": "HTTP Host"
+        },
+        {
+            "id": "http_invalid_request_line",
+            "name": "HTTP Invalid Request Line"
+        },
+        {
+            "id": "http_requests",
+            "name": "HTTP Requests"
+        },
+        {
+            "id": "meek_fronted_requests_test",
+            "name": "Meek Fronted Requests"
+        },
+        {
+            "id": "multi_protocol_traceroute",
+            "name": "Multi Protocol Traceroute"
+        },
+        {
+            "id": "ndt",
+            "name": "NDT"
+        },
+        {
+            "id": "psiphon",
+            "name": "Psiphon"
+        },
+        {
+            "id": "riseupvpn",
+            "name": "RiseupVPN"
+        },
+        {
+            "id": "signal",
+            "name": "Signal"
+        },
+        {
+            "id": "stunreachability",
+            "name": "STUN Reachability"
+        },
+        {
+            "id": "tcp_connect",
+            "name": "TCP Connect"
+        },
+        {
+            "id": "telegram",
+            "name": "Telegram"
+        },
+        {
+            "id": "tor",
+            "name": "Tor"
+        },
+        {
+            "id": "torsf",
+            "name": "Tor Snowflake"
+        },
+        {
+            "id": "urlgetter",
+            "name": "URL Getter"
+        },
+        {
+            "id": "vanilla_tor",
+            "name": "Vanilla Tor"
+        },
+        {
+            "id": "web_connectivity",
+            "name": "Web Connectivity"
+        },
+        {
+            "id": "whatsapp",
+            "name": "WhatsApp"
+        }
+    ]
+}
