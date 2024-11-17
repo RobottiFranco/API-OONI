@@ -34,8 +34,8 @@ def download_measurements(probe_cc, test_name, since, until, filename):
 
 # Descargar datos para 2022
 download_measurements(
-    probe_cc="UY",
-    test_name="dns_consistency",
+    probe_cc="VE",
+    test_name="web_connectivity",
     since="2022-01-01T00:00:00",
     until="2022-12-31T23:59:59",
     filename="domains_2022.json"
@@ -43,8 +43,8 @@ download_measurements(
 
 # Descargar datos para 2023
 download_measurements(
-    probe_cc="UY",
-    test_name="dns_consistency",
+    probe_cc="VE",
+    test_name="dns_consistency", #me parece que está obsoleto, vamos a tener que usar web_connectivity
     since="2023-01-01T00:00:00",
     until="2023-12-31T23:59:59",
     filename="domains_2023.json"
