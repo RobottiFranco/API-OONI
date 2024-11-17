@@ -1,0 +1,445 @@
+{
+    "annotations": {
+        "architecture": "arm64",
+        "engine_name": "ooniprobe-engine",
+        "engine_version": "3.16.7",
+        "flavor": "stableFull",
+        "network_type": "wifi",
+        "origin": "autorun",
+        "platform": "android"
+    },
+    "data_format_version": "0.2.0",
+    "input": "http://sunoticiero.com/",
+    "measurement_start_time": "2023-04-05 19:43:26",
+    "probe_asn": "AS8048",
+    "probe_cc": "VE",
+    "probe_ip": "127.0.0.1",
+    "probe_network_name": "CANTV Servicios, Venezuela",
+    "report_id": "20230405T191014Z_webconnectivity_VE_8048_n1_m5hj1r6ABdcSyB1e",
+    "resolver_asn": "AS15169",
+    "resolver_ip": "172.253.7.10",
+    "resolver_network_name": "Google LLC",
+    "software_name": "ooniprobe-android-unattended",
+    "software_version": "3.7.3",
+    "test_helpers": {
+        "backend": {
+            "address": "https://3.th.ooni.org",
+            "type": "https"
+        }
+    },
+    "test_keys": {
+        "agent": "redirect",
+        "client_resolver": "172.253.7.10",
+        "retries": null,
+        "socksproxy": null,
+        "network_events": [
+            {
+                "address": "[2606:4700:3034::6815:602c]:80",
+                "failure": "network_unreachable",
+                "operation": "connect",
+                "proto": "tcp",
+                "t": 1.084543697,
+                "tags": [
+                    "tcptls_experiment"
+                ]
+            },
+            {
+                "address": "[2606:4700:3037::ac43:ad01]:80",
+                "failure": "network_unreachable",
+                "operation": "connect",
+                "proto": "tcp",
+                "t": 1.084831249,
+                "tags": [
+                    "tcptls_experiment"
+                ]
+            },
+            {
+                "address": "172.67.173.1:80",
+                "failure": null,
+                "operation": "connect",
+                "proto": "tcp",
+                "t": 1.138350676,
+                "tags": [
+                    "tcptls_experiment"
+                ]
+            },
+            {
+                "address": "104.21.96.44:80",
+                "failure": null,
+                "operation": "connect",
+                "proto": "tcp",
+                "t": 1.138834791,
+                "tags": [
+                    "tcptls_experiment"
+                ]
+            }
+        ],
+        "tls_handshakes": null,
+        "queries": [
+            {
+                "answers": [
+                    {
+                        "asn": 13335,
+                        "as_org_name": "Cloudflare, Inc.",
+                        "answer_type": "A",
+                        "ipv4": "172.67.173.1",
+                        "ttl": null
+                    },
+                    {
+                        "asn": 13335,
+                        "as_org_name": "Cloudflare, Inc.",
+                        "answer_type": "A",
+                        "ipv4": "104.21.96.44",
+                        "ttl": null
+                    }
+                ],
+                "engine": "system",
+                "failure": null,
+                "hostname": "sunoticiero.com",
+                "query_type": "A",
+                "resolver_hostname": null,
+                "resolver_port": null,
+                "resolver_address": "",
+                "t": 0.686657135
+            },
+            {
+                "answers": [
+                    {
+                        "asn": 13335,
+                        "as_org_name": "Cloudflare, Inc.",
+                        "answer_type": "AAAA",
+                        "ipv6": "2606:4700:3037::ac43:ad01",
+                        "ttl": null
+                    },
+                    {
+                        "asn": 13335,
+                        "as_org_name": "Cloudflare, Inc.",
+                        "answer_type": "AAAA",
+                        "ipv6": "2606:4700:3034::6815:602c",
+                        "ttl": null
+                    }
+                ],
+                "engine": "system",
+                "failure": null,
+                "hostname": "sunoticiero.com",
+                "query_type": "AAAA",
+                "resolver_hostname": null,
+                "resolver_port": null,
+                "resolver_address": "",
+                "t": 0.686657135
+            }
+        ],
+        "dns_experiment_failure": null,
+        "dns_consistency": "consistent",
+        "control_failure": null,
+        "control": {
+            "tcp_connect": {
+                "104.21.96.44:443": {
+                    "status": true,
+                    "failure": null
+                },
+                "104.21.96.44:80": {
+                    "status": true,
+                    "failure": null
+                },
+                "172.67.173.1:443": {
+                    "status": true,
+                    "failure": null
+                },
+                "172.67.173.1:80": {
+                    "status": true,
+                    "failure": null
+                },
+                "188.114.96.3:443": {
+                    "status": true,
+                    "failure": null
+                },
+                "188.114.96.3:80": {
+                    "status": true,
+                    "failure": null
+                },
+                "188.114.97.3:443": {
+                    "status": true,
+                    "failure": null
+                },
+                "188.114.97.3:80": {
+                    "status": true,
+                    "failure": null
+                },
+                "[2606:4700:3034::6815:602c]:443": {
+                    "status": true,
+                    "failure": null
+                },
+                "[2606:4700:3034::6815:602c]:80": {
+                    "status": true,
+                    "failure": null
+                },
+                "[2606:4700:3037::ac43:ad01]:443": {
+                    "status": true,
+                    "failure": null
+                },
+                "[2606:4700:3037::ac43:ad01]:80": {
+                    "status": true,
+                    "failure": null
+                },
+                "[2a06:98c1:3120::3]:443": {
+                    "status": true,
+                    "failure": null
+                },
+                "[2a06:98c1:3120::3]:80": {
+                    "status": true,
+                    "failure": null
+                },
+                "[2a06:98c1:3121::3]:443": {
+                    "status": true,
+                    "failure": null
+                },
+                "[2a06:98c1:3121::3]:80": {
+                    "status": true,
+                    "failure": null
+                }
+            },
+            "tls_handshake": {
+                "104.21.96.44:443": {
+                    "server_name": "sunoticiero.com",
+                    "status": true,
+                    "failure": null
+                },
+                "172.67.173.1:443": {
+                    "server_name": "sunoticiero.com",
+                    "status": true,
+                    "failure": null
+                },
+                "188.114.96.3:443": {
+                    "server_name": "sunoticiero.com",
+                    "status": true,
+                    "failure": null
+                },
+                "188.114.97.3:443": {
+                    "server_name": "sunoticiero.com",
+                    "status": true,
+                    "failure": null
+                },
+                "[2606:4700:3034::6815:602c]:443": {
+                    "server_name": "sunoticiero.com",
+                    "status": true,
+                    "failure": null
+                },
+                "[2606:4700:3037::ac43:ad01]:443": {
+                    "server_name": "sunoticiero.com",
+                    "status": true,
+                    "failure": null
+                },
+                "[2a06:98c1:3120::3]:443": {
+                    "server_name": "sunoticiero.com",
+                    "status": true,
+                    "failure": null
+                },
+                "[2a06:98c1:3121::3]:443": {
+                    "server_name": "sunoticiero.com",
+                    "status": true,
+                    "failure": null
+                }
+            },
+            "http_request": {
+                "body_length": 7003,
+                "failure": null,
+                "title": "",
+                "headers": {
+                    "Content-Security-Policy": "img-src https: data:; upgrade-insecure-requests",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Wed, 05 Apr 2023 19:14:09 GMT",
+                    "Expires": "Wed, 05 Apr 2023 19:14:09 +0000",
+                    "Server": "nginx",
+                    "Set-Cookie": "clhf03028ja=64.225.106.91; expires=Fri, 05-Apr-2024 19:14:09 GMT; Max-Age=31622400; path=/; secure; HttpOnly; SameSite=Strict",
+                    "Strict-Transport-Security": "max-age=604800",
+                    "X-Frame-Options": "SAMEORIGIN"
+                },
+                "status_code": 200
+            },
+            "dns": {
+                "failure": null,
+                "addrs": [
+                    "188.114.96.3",
+                    "188.114.97.3",
+                    "2a06:98c1:3121::3",
+                    "2a06:98c1:3120::3"
+                ]
+            },
+            "ip_info": {
+                "104.21.96.44": {
+                    "asn": 13335,
+                    "flags": 9
+                },
+                "172.67.173.1": {
+                    "asn": 13335,
+                    "flags": 9
+                },
+                "188.114.96.3": {
+                    "asn": 13335,
+                    "flags": 10
+                },
+                "188.114.97.3": {
+                    "asn": 13335,
+                    "flags": 10
+                },
+                "2606:4700:3034::6815:602c": {
+                    "asn": 13335,
+                    "flags": 9
+                },
+                "2606:4700:3037::ac43:ad01": {
+                    "asn": 13335,
+                    "flags": 9
+                },
+                "2a06:98c1:3120::3": {
+                    "asn": 13335,
+                    "flags": 10
+                },
+                "2a06:98c1:3121::3": {
+                    "asn": 13335,
+                    "flags": 10
+                }
+            }
+        },
+        "tcp_connect": [
+            {
+                "ip": "2606:4700:3034::6815:602c",
+                "port": 80,
+                "status": {
+                    "blocked": true,
+                    "failure": "network_unreachable",
+                    "success": false
+                },
+                "t": 1.084543697
+            },
+            {
+                "ip": "2606:4700:3037::ac43:ad01",
+                "port": 80,
+                "status": {
+                    "blocked": true,
+                    "failure": "network_unreachable",
+                    "success": false
+                },
+                "t": 1.084831249
+            },
+            {
+                "ip": "172.67.173.1",
+                "port": 80,
+                "status": {
+                    "blocked": false,
+                    "failure": null,
+                    "success": true
+                },
+                "t": 1.138350676
+            },
+            {
+                "ip": "104.21.96.44",
+                "port": 80,
+                "status": {
+                    "blocked": false,
+                    "failure": null,
+                    "success": true
+                },
+                "t": 1.138834791
+            }
+        ],
+        "requests": [
+            {
+                "failure": null,
+                "request": {
+                    "body": "",
+                    "body_is_truncated": false,
+                    "headers_list": [
+                        [
+                            "Accept",
+                            "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+                        ],
+                        [
+                            "Accept-Language",
+                            "en-US,en;q=0.9"
+                        ],
+                        [
+                            "Host",
+                            "sunoticiero.com"
+                        ],
+                        [
+                            "User-Agent",
+                            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+                        ]
+                    ],
+                    "headers": {
+                        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "Accept-Language": "en-US,en;q=0.9",
+                        "Host": "sunoticiero.com",
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+                    },
+                    "method": "GET",
+                    "tor": {
+                        "exit_ip": null,
+                        "exit_name": null,
+                        "is_tor": false
+                    },
+                    "x_transport": "tcp",
+                    "url": "http://sunoticiero.com/"
+                },
+                "response": {
+                    "body": "<!DOCTYPE html><html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=8; IE=EDGE\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <link href=\"https://fonts.googleapis.com/css?family=Roboto&display=swap\" rel=\"stylesheet\"> <style type=\"text/css\"> body { height: 100%; font-family: Roboto, Helvetica, Arial, sans-serif; color: #6a6a6a; margin: 0; display: flex; align-items: center; justify-content: center; } input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], select, textarea { color: #262626; vertical-align: baseline; margin: .2em; border-style: solid; border-width: 1px; border-color: #a9a9a9; background-color: #fff; box-sizing: border-box; padding: 2px .5em; appearance: none; border-radius: 0; } input:focus { border-color: #646464; box-shadow: 0 0 1px 0 #a2a2a2; outline: 0; } button { padding: .5em 1em; border: 1px solid; border-radius: 3px; min-width: 6em; font-weight: 400; font-size: .8em; cursor: pointer; } button.primary { color: #fff; background-color: rgb(47, 113, 178); border-color: rgb(34, 103, 173); } .message-container { height: 500px; width: 600px; padding: 0; margin: 10px; } .logo { background: url(http://globalurl.fortinet.net:8008/XX/YY/ZZ/CI/MGPGHGPGPFGHDDPFGGHGFHBGCHEGPFBGAHAH) no-repeat left center; height: 267px; object-fit: contain; } table { background-color: #fff; border-spacing: 0; margin: 1em; } table > tbody > tr > td:first-of-type:not([colspan]) { white-space: nowrap; color: rgba(0,0,0,.5); } table > tbody > tr > td:first-of-type { vertical-align: top; } table > tbody > tr > td { padding: .3em .3em; } .field { display: table-row; } .field > :first-child { display: table-cell; width: 20%; } .field.single > :first-child { display: inline; } .field > :not(:first-child) { width: auto; max-width: 100%; display: inline-flex; align-items: baseline; virtical-align: top; box-sizing: border-box; margin: .3em; } .field > :not(:first-child) > input { width: 230px; } .form-footer { display: inline-flex; justify-content: flex-start; } .form-footer > * { margin: 1em; } .text-scrollable { overflow: auto; height: 150px; border: 1px solid rgb(200, 200, 200); padding: 5px; font-size: 1em; } .text-centered { text-align: center; } .text-container { margin: 1em 1.5em; } .flex-container { display: flex; } .flex-container.column { flex-direction: column; } </style> <title>The URL you requested has been blocked</title> </head> <body><div class=\"message-container\"> <div class=\"logo\"></div> <h1>FortiGuard Intrusion Prevention - Access Blocked</h1> <h3>Web Page Blocked</h3> <p>The page you have requested has been blocked because the URL is banned.</p> <table><tbody> <tr> <td>URL</td> <td>http://sunoticiero.com/</td> </tr> <tr> <td>Description</td> <td></td> </tr> <tr> <td>Username</td> <td></td> </tr> <tr> <td>Group Name</td> <td></td> </tr> <tr> <td>URL Source</td> <td>Local URLfilter Block</td> </tr> </tbody></table> <p></p></div></body></html>\r\n",
+                    "body_is_truncated": false,
+                    "code": 403,
+                    "headers_list": [
+                        [
+                            "Content-Length",
+                            "3072"
+                        ],
+                        [
+                            "Content-Security-Policy",
+                            "frame-ancestors 'self'"
+                        ],
+                        [
+                            "Content-Type",
+                            "text/html; charset=\"utf-8\""
+                        ],
+                        [
+                            "X-Content-Type-Options",
+                            "nosniff"
+                        ],
+                        [
+                            "X-Frame-Options",
+                            "SAMEORIGIN"
+                        ],
+                        [
+                            "X-Xss-Protection",
+                            "1; mode=block"
+                        ]
+                    ],
+                    "headers": {
+                        "Content-Length": "3072",
+                        "Content-Security-Policy": "frame-ancestors 'self'",
+                        "Content-Type": "text/html; charset=\"utf-8\"",
+                        "X-Content-Type-Options": "nosniff",
+                        "X-Frame-Options": "SAMEORIGIN",
+                        "X-Xss-Protection": "1; mode=block"
+                    }
+                },
+                "t": 1.242429062
+            }
+        ],
+        "http_experiment_failure": null,
+        "body_length_match": false,
+        "body_proportion": 0.438669141796373,
+        "status_code_match": false,
+        "headers_match": true,
+        "title_match": false,
+        "accessible": false,
+        "blocking": "http-diff",
+        "x_status": 64,
+        "x_dns_runtime": 688728698,
+        "x_th_runtime": 374902344,
+        "x_tcptls_runtime": 58409375,
+        "x_http_runtime": 102102448
+    },
+    "test_name": "web_connectivity",
+    "test_runtime": 1.241372187,
+    "test_start_time": "2023-04-05 19:39:31",
+    "test_version": "0.4.2"
+}

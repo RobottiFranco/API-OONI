@@ -1,0 +1,237 @@
+{
+    "annotations": {
+        "architecture": "arm64",
+        "engine_name": "ooniprobe-engine",
+        "engine_version": "3.16.7",
+        "flavor": "stableFull",
+        "network_type": "wifi",
+        "origin": "autorun",
+        "platform": "android"
+    },
+    "data_format_version": "0.2.0",
+    "input": "http://noticiasvenezuela.org/",
+    "measurement_start_time": "2023-04-05 20:35:40",
+    "probe_asn": "AS21980",
+    "probe_cc": "VE",
+    "probe_ip": "127.0.0.1",
+    "probe_network_name": "Dayco Telecom, C.A.",
+    "report_id": "20230405T200033Z_webconnectivity_VE_21980_n1_2jFbUAY4oM1TPlf6",
+    "resolver_asn": "AS15169",
+    "resolver_ip": "172.253.15.199",
+    "resolver_network_name": "Google LLC",
+    "software_name": "ooniprobe-android-unattended",
+    "software_version": "3.7.3",
+    "test_helpers": {
+        "backend": {
+            "address": "https://3.th.ooni.org",
+            "type": "https"
+        }
+    },
+    "test_keys": {
+        "agent": "redirect",
+        "client_resolver": "172.253.15.199",
+        "retries": null,
+        "socksproxy": null,
+        "network_events": [
+            {
+                "address": "162.255.119.215:80",
+                "failure": null,
+                "operation": "connect",
+                "proto": "tcp",
+                "t": 18.089091816,
+                "tags": [
+                    "tcptls_experiment"
+                ]
+            }
+        ],
+        "tls_handshakes": null,
+        "queries": [
+            {
+                "answers": [
+                    {
+                        "asn": 22612,
+                        "as_org_name": "Namecheap, Inc.",
+                        "answer_type": "A",
+                        "ipv4": "162.255.119.215",
+                        "ttl": null
+                    }
+                ],
+                "engine": "system",
+                "failure": null,
+                "hostname": "noticiasvenezuela.org",
+                "query_type": "A",
+                "resolver_hostname": null,
+                "resolver_port": null,
+                "resolver_address": "",
+                "t": 1.103178228
+            }
+        ],
+        "dns_experiment_failure": null,
+        "dns_consistency": "consistent",
+        "control_failure": null,
+        "control": {
+            "tcp_connect": {
+                "162.255.119.215:443": {
+                    "status": false,
+                    "failure": "generic_timeout_error"
+                },
+                "162.255.119.215:80": {
+                    "status": true,
+                    "failure": null
+                }
+            },
+            "http_request": {
+                "body_length": 1488009,
+                "failure": null,
+                "title": "Google\u00a0Noticias",
+                "headers": {
+                    "Accept-Ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+                    "Accept-Ranges": "none",
+                    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+                    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+                    "Content-Security-Policy": "require-trusted-types-for 'script';report-uri /_/DotsSplashUi/cspreport",
+                    "Content-Type": "text/html; charset=utf-8",
+                    "Cross-Origin-Opener-Policy": "same-origin-allow-popups; report-to=\"DotsSplashUi\"",
+                    "Cross-Origin-Resource-Policy": "same-site",
+                    "Date": "Wed, 05 Apr 2023 20:06:06 GMT",
+                    "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+                    "P3p": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+                    "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-platform=*, ch-ua-platform-version=*",
+                    "Pragma": "no-cache",
+                    "Report-To": "{\"group\":\"DotsSplashUi\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/DotsSplashUi/external\"}]}",
+                    "Server": "ESF",
+                    "Set-Cookie": "__Secure-ENID=11.SE=T1XoLEOa03goWeIb0z5ekp06qvNxOVM6I8nS18p3K01ihj828TKTXc5p0A0DByz3z-4R7Wl2ofWruCdo42l2u6cy4ZWRi_VvOTPIUsnJIFaTElasw0iPqipcCMmv8h9vwffhjynXc4S5jZoBwIPFE4qsWVYdO6pttbi9WpzBCNI; expires=Sun, 05-May-2024 12:24:24 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax",
+                    "Strict-Transport-Security": "max-age=31536000",
+                    "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding",
+                    "X-Content-Type-Options": "nosniff",
+                    "X-Frame-Options": "SAMEORIGIN",
+                    "X-Ua-Compatible": "IE=edge",
+                    "X-Xss-Protection": "0"
+                },
+                "status_code": 200
+            },
+            "dns": {
+                "failure": null,
+                "addrs": [
+                    "162.255.119.215"
+                ]
+            },
+            "ip_info": {
+                "162.255.119.215": {
+                    "asn": 22612,
+                    "flags": 3
+                }
+            }
+        },
+        "tcp_connect": [
+            {
+                "ip": "162.255.119.215",
+                "port": 80,
+                "status": {
+                    "blocked": false,
+                    "failure": null,
+                    "success": true
+                },
+                "t": 18.089091816
+            }
+        ],
+        "requests": [
+            {
+                "failure": null,
+                "request": {
+                    "body": "",
+                    "body_is_truncated": false,
+                    "headers_list": [
+                        [
+                            "Accept",
+                            "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+                        ],
+                        [
+                            "Accept-Language",
+                            "en-US,en;q=0.9"
+                        ],
+                        [
+                            "Host",
+                            "noticiasvenezuela.org"
+                        ],
+                        [
+                            "User-Agent",
+                            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+                        ]
+                    ],
+                    "headers": {
+                        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "Accept-Language": "en-US,en;q=0.9",
+                        "Host": "noticiasvenezuela.org",
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+                    },
+                    "method": "GET",
+                    "tor": {
+                        "exit_ip": null,
+                        "exit_name": null,
+                        "is_tor": false
+                    },
+                    "x_transport": "tcp",
+                    "url": "http://noticiasvenezuela.org/"
+                },
+                "response": {
+                    "body": "<!DOCTYPE html><html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=8; IE=EDGE\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <link href=\"https://fonts.googleapis.com/css?family=Roboto&display=swap\" rel=\"stylesheet\"> <style type=\"text/css\"> body { height: 100%; font-family: Roboto, Helvetica, Arial, sans-serif; color: #6a6a6a; margin: 0; display: flex; align-items: center; justify-content: center; } input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], select, textarea { color: #262626; vertical-align: baseline; margin: .2em; border-style: solid; border-width: 1px; border-color: #a9a9a9; background-color: #fff; box-sizing: border-box; padding: 2px .5em; appearance: none; border-radius: 0; } input:focus { border-color: #646464; box-shadow: 0 0 1px 0 #a2a2a2; outline: 0; } button { padding: .5em 1em; border: 1px solid; border-radius: 3px; min-width: 6em; font-weight: 400; font-size: .8em; cursor: pointer; } button.primary { color: #fff; background-color: rgb(47, 113, 178); border-color: rgb(34, 103, 173); } .message-container { height: 500px; width: 600px; padding: 0; margin: 10px; } .logo { background: url(http://globalurl.fortinet.net:8008/XX/YY/ZZ/CI/MGPGHGPGPFGHDDPFGGHGFHBGCHEGPFBGAHAH) no-repeat left center; height: 267px; object-fit: contain; } table { background-color: #fff; border-spacing: 0; margin: 1em; } table > tbody > tr > td:first-of-type:not([colspan]) { white-space: nowrap; color: rgba(0,0,0,.5); } table > tbody > tr > td:first-of-type { vertical-align: top; } table > tbody > tr > td { padding: .3em .3em; } .field { display: table-row; } .field > :first-child { display: table-cell; width: 20%; } .field.single > :first-child { display: inline; } .field > :not(:first-child) { width: auto; max-width: 100%; display: inline-flex; align-items: baseline; virtical-align: top; box-sizing: border-box; margin: .3em; } .field > :not(:first-child) > input { width: 230px; } .form-footer { display: inline-flex; justify-content: flex-start; } .form-footer > * { margin: 1em; } .text-scrollable { overflow: auto; height: 150px; border: 1px solid rgb(200, 200, 200); padding: 5px; font-size: 1em; } .text-centered { text-align: center; } .text-container { margin: 1em 1.5em; } .flex-container { display: flex; } .flex-container.column { flex-direction: column; } </style> <title>The URL you requested has been blocked</title> </head> <body><div class=\"message-container\"> <div class=\"logo\"></div> <h1>FortiGuard Intrusion Prevention - Access Blocked</h1> <h3>Web Page Blocked</h3> <p>The page you have requested has been blocked because the URL is banned.</p> <table><tbody> <tr> <td>URL</td> <td>http://noticiasvenezuela.org/</td> </tr> <tr> <td>Description</td> <td></td> </tr> <tr> <td>Username</td> <td></td> </tr> <tr> <td>Group Name</td> <td></td> </tr> <tr> <td>URL Source</td> <td>Local URLfilter Block</td> </tr> </tbody></table> <p></p></div></body></html>\r\n",
+                    "body_is_truncated": false,
+                    "code": 403,
+                    "headers_list": [
+                        [
+                            "Content-Length",
+                            "3078"
+                        ],
+                        [
+                            "Content-Security-Policy",
+                            "frame-ancestors 'self'"
+                        ],
+                        [
+                            "Content-Type",
+                            "text/html; charset=\"utf-8\""
+                        ],
+                        [
+                            "X-Content-Type-Options",
+                            "nosniff"
+                        ],
+                        [
+                            "X-Frame-Options",
+                            "SAMEORIGIN"
+                        ],
+                        [
+                            "X-Xss-Protection",
+                            "1; mode=block"
+                        ]
+                    ],
+                    "headers": {
+                        "Content-Length": "3078",
+                        "Content-Security-Policy": "frame-ancestors 'self'",
+                        "Content-Type": "text/html; charset=\"utf-8\"",
+                        "X-Content-Type-Options": "nosniff",
+                        "X-Frame-Options": "SAMEORIGIN",
+                        "X-Xss-Protection": "1; mode=block"
+                    }
+                },
+                "t": 18.586008586
+            }
+        ],
+        "http_experiment_failure": null,
+        "body_length_match": false,
+        "body_proportion": 0.002068535875791074,
+        "status_code_match": false,
+        "headers_match": true,
+        "title_match": false,
+        "accessible": false,
+        "blocking": "http-diff",
+        "x_status": 64,
+        "x_dns_runtime": 1103321249,
+        "x_th_runtime": 16545669316,
+        "x_tcptls_runtime": 440324323,
+        "x_http_runtime": 496995573
+    },
+    "test_name": "web_connectivity",
+    "test_runtime": 18.594931555,
+    "test_start_time": "2023-04-05 20:29:50",
+    "test_version": "0.4.2"
+}

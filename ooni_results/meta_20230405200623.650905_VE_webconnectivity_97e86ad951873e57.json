@@ -1,0 +1,15 @@
+{
+    "anomaly": true,
+    "category_code": "NEWS",
+    "confirmed": true,
+    "failure": false,
+    "input": "http://noticiasvenezuela.org/",
+    "measurement_start_time": "2023-04-05T20:35:40Z",
+    "measurement_uid": "20230405200623.650905_VE_webconnectivity_97e86ad951873e57",
+    "probe_asn": 21980,
+    "probe_cc": "VE",
+    "report_id": "20230405T200033Z_webconnectivity_VE_21980_n1_2jFbUAY4oM1TPlf6",
+    "scores": "{\"blocking_general\":2.0,\"blocking_global\":0.0,\"blocking_country\":1.0,\"blocking_isp\":0.0,\"blocking_local\":0.0,\"fingerprints\":[{\"name\":\"ooni.in_0\",\"scope\":\"nat\",\"location_found\":\"body\",\"confidence_no_fp\":5,\"expected_countries\":[\"IN\"]},{\"name\":\"cp.f_gen_blocked_7\",\"scope\":\"vbw\",\"location_found\":\"body\",\"confidence_no_fp\":5,\"expected_countries\":[]},{\"name\":\"cp.a_prod_fortinet_2\",\"scope\":\"prod\",\"location_found\":\"body\",\"confidence_no_fp\":5,\"expected_countries\":[]},{\"name\":\"cl.vbw_web_page_blocked\",\"scope\":\"vbw\",\"location_found\":\"body\",\"confidence_no_fp\":8,\"expected_countries\":[]},{\"name\":\"cl.prod_fortiguard_ips_block\",\"scope\":\"prod\",\"location_found\":\"body\",\"confidence_no_fp\":10,\"expected_countries\":[]}],\"confirmed\":true,\"analysis\":{\"blocking_type\":\"http-diff\"}}",
+    "test_name": "web_connectivity",
+    "test_start_time": "2023-04-05T20:29:50Z"
+}
