@@ -1,3 +1,6 @@
+
+# script en Python que descarga datos históricos y los guarda en archivos separados por años
+
 import requests
 import json
 
