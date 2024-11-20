@@ -1,0 +1,202 @@
+{
+    "metadata": {
+        "count": 3,
+        "current_page": 1,
+        "limit": 100,
+        "next_url": null,
+        "offset": 0,
+        "pages": 1,
+        "query_time": 3.47304105758667
+    },
+    "results": [
+        {
+            "anomaly": true,
+            "confirmed": true,
+            "failure": false,
+            "input": "http://sunoticiero.com/",
+            "measurement_start_time": "2023-04-05T20:36:27Z",
+            "measurement_uid": "20230405200710.831401_VE_webconnectivity_44946d21ee2ba7ff",
+            "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20230405200710.831401_VE_webconnectivity_44946d21ee2ba7ff",
+            "probe_asn": "AS21980",
+            "probe_cc": "VE",
+            "report_id": "20230405T200033Z_webconnectivity_VE_21980_n1_2jFbUAY4oM1TPlf6",
+            "scores": {
+                "analysis": {
+                    "blocking_type": "http-diff"
+                },
+                "blocking_country": 1.0,
+                "blocking_general": 2.0,
+                "blocking_global": 0.0,
+                "blocking_isp": 0.0,
+                "blocking_local": 0.0,
+                "confirmed": true,
+                "fingerprints": [
+                    {
+                        "confidence_no_fp": 5,
+                        "expected_countries": [
+                            "IN"
+                        ],
+                        "location_found": "body",
+                        "name": "ooni.in_0",
+                        "scope": "nat"
+                    },
+                    {
+                        "confidence_no_fp": 5,
+                        "expected_countries": [],
+                        "location_found": "body",
+                        "name": "cp.f_gen_blocked_7",
+                        "scope": "vbw"
+                    },
+                    {
+                        "confidence_no_fp": 5,
+                        "expected_countries": [],
+                        "location_found": "body",
+                        "name": "cp.a_prod_fortinet_2",
+                        "scope": "prod"
+                    },
+                    {
+                        "confidence_no_fp": 8,
+                        "expected_countries": [],
+                        "location_found": "body",
+                        "name": "cl.vbw_web_page_blocked",
+                        "scope": "vbw"
+                    },
+                    {
+                        "confidence_no_fp": 10,
+                        "expected_countries": [],
+                        "location_found": "body",
+                        "name": "cl.prod_fortiguard_ips_block",
+                        "scope": "prod"
+                    }
+                ]
+            },
+            "test_name": "web_connectivity"
+        },
+        {
+            "anomaly": true,
+            "confirmed": true,
+            "failure": false,
+            "input": "http://noticiasvenezuela.org/",
+            "measurement_start_time": "2023-04-05T20:35:40Z",
+            "measurement_uid": "20230405200623.650905_VE_webconnectivity_97e86ad951873e57",
+            "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20230405200623.650905_VE_webconnectivity_97e86ad951873e57",
+            "probe_asn": "AS21980",
+            "probe_cc": "VE",
+            "report_id": "20230405T200033Z_webconnectivity_VE_21980_n1_2jFbUAY4oM1TPlf6",
+            "scores": {
+                "analysis": {
+                    "blocking_type": "http-diff"
+                },
+                "blocking_country": 1.0,
+                "blocking_general": 2.0,
+                "blocking_global": 0.0,
+                "blocking_isp": 0.0,
+                "blocking_local": 0.0,
+                "confirmed": true,
+                "fingerprints": [
+                    {
+                        "confidence_no_fp": 5,
+                        "expected_countries": [
+                            "IN"
+                        ],
+                        "location_found": "body",
+                        "name": "ooni.in_0",
+                        "scope": "nat"
+                    },
+                    {
+                        "confidence_no_fp": 5,
+                        "expected_countries": [],
+                        "location_found": "body",
+                        "name": "cp.f_gen_blocked_7",
+                        "scope": "vbw"
+                    },
+                    {
+                        "confidence_no_fp": 5,
+                        "expected_countries": [],
+                        "location_found": "body",
+                        "name": "cp.a_prod_fortinet_2",
+                        "scope": "prod"
+                    },
+                    {
+                        "confidence_no_fp": 8,
+                        "expected_countries": [],
+                        "location_found": "body",
+                        "name": "cl.vbw_web_page_blocked",
+                        "scope": "vbw"
+                    },
+                    {
+                        "confidence_no_fp": 10,
+                        "expected_countries": [],
+                        "location_found": "body",
+                        "name": "cl.prod_fortiguard_ips_block",
+                        "scope": "prod"
+                    }
+                ]
+            },
+            "test_name": "web_connectivity"
+        },
+        {
+            "anomaly": true,
+            "confirmed": true,
+            "failure": false,
+            "input": "http://sunoticiero.com/",
+            "measurement_start_time": "2023-04-05T19:43:26Z",
+            "measurement_uid": "20230405191409.791143_VE_webconnectivity_674b6150abb098e2",
+            "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20230405191409.791143_VE_webconnectivity_674b6150abb098e2",
+            "probe_asn": "AS8048",
+            "probe_cc": "VE",
+            "report_id": "20230405T191014Z_webconnectivity_VE_8048_n1_m5hj1r6ABdcSyB1e",
+            "scores": {
+                "analysis": {
+                    "blocking_type": "http-diff"
+                },
+                "blocking_country": 1.0,
+                "blocking_general": 2.0,
+                "blocking_global": 0.0,
+                "blocking_isp": 0.0,
+                "blocking_local": 0.0,
+                "confirmed": true,
+                "fingerprints": [
+                    {
+                        "confidence_no_fp": 5,
+                        "expected_countries": [
+                            "IN"
+                        ],
+                        "location_found": "body",
+                        "name": "ooni.in_0",
+                        "scope": "nat"
+                    },
+                    {
+                        "confidence_no_fp": 5,
+                        "expected_countries": [],
+                        "location_found": "body",
+                        "name": "cp.f_gen_blocked_7",
+                        "scope": "vbw"
+                    },
+                    {
+                        "confidence_no_fp": 5,
+                        "expected_countries": [],
+                        "location_found": "body",
+                        "name": "cp.a_prod_fortinet_2",
+                        "scope": "prod"
+                    },
+                    {
+                        "confidence_no_fp": 8,
+                        "expected_countries": [],
+                        "location_found": "body",
+                        "name": "cl.vbw_web_page_blocked",
+                        "scope": "vbw"
+                    },
+                    {
+                        "confidence_no_fp": 10,
+                        "expected_countries": [],
+                        "location_found": "body",
+                        "name": "cl.prod_fortiguard_ips_block",
+                        "scope": "prod"
+                    }
+                ]
+            },
+            "test_name": "web_connectivity"
+        }
+    ]
+}

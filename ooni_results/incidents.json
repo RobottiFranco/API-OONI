@@ -1,0 +1,1204 @@
+{
+    "incidents": [
+        {
+            "ASNs": [
+                39232,
+                31721,
+                29049,
+                196961
+            ],
+            "CCs": [
+                "AZ"
+            ],
+            "create_time": "2023-11-01T16:47:03Z",
+            "domains": [
+                "www.tiktok.com",
+                "play.google.com"
+            ],
+            "email_address": null,
+            "end_time": "2023-10-31T00:00:00Z",
+            "event_type": "incident",
+            "id": "67768606801",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of TikTok and the Google Play Store in Azerbaijan during the military offensive in Nagorno-Karabakh in September 2023.",
+            "start_time": "2023-09-19T00:00:00Z",
+            "tags": [
+                "azerbaijan",
+                "tiktok",
+                "google play store",
+                "censorship"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Azerbaijan blocked TikTok and Google Play Store amid military offensive in Nagorno-Karabakh",
+            "update_time": "2024-10-11T14:48:06Z"
+        },
+        {
+            "ASNs": [
+                24432,
+                24389
+            ],
+            "CCs": [
+                "BD"
+            ],
+            "create_time": "2024-07-18T05:31:10Z",
+            "domains": [
+                "www.facebook.com"
+            ],
+            "email_address": null,
+            "end_time": null,
+            "event_type": "incident",
+            "id": "45013413801",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Elizaveta Yachmeneva",
+            "short_description": "This report shares OONI data on the blocking of Facebook in Bangladesh between 16th July 2024 to 17th July 2024.",
+            "start_time": "2024-07-16T00:00:00Z",
+            "tags": [
+                "facebook",
+                "censorship",
+                "bangladesh"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Bangladesh blocked Facebook amid student protests",
+            "update_time": "2024-08-21T10:18:10Z"
+        },
+        {
+            "ASNs": [
+                24389,
+                24432,
+                23956
+            ],
+            "CCs": [
+                "BD"
+            ],
+            "create_time": "2024-01-10T12:43:03Z",
+            "domains": [
+                "mzamin.com",
+                "samakal.com",
+                "jamuna.tv",
+                "www.voabangla.com"
+            ],
+            "email_address": null,
+            "end_time": "2024-01-07T00:00:00Z",
+            "event_type": "incident",
+            "id": "11686385001",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of news media websites in Bangladesh amid the country's 2024 general elections.",
+            "start_time": "2024-01-06T00:00:00Z",
+            "tags": [
+                "censorship",
+                "news media",
+                "elections"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Bangladesh blocked news media websites amid 2024 general elections",
+            "update_time": "2024-01-10T12:43:03Z"
+        },
+        {
+            "ASNs": [],
+            "CCs": [
+                "BR"
+            ],
+            "create_time": "2023-10-31T13:48:34Z",
+            "domains": [
+                "telegram.org",
+                "web.telegram.org"
+            ],
+            "email_address": null,
+            "end_time": "2023-04-29T13:59:00Z",
+            "event_type": "incident",
+            "id": "76657383201",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the temporary blocking of Telegram in Brazil in April 2023.",
+            "start_time": "2023-04-27T13:59:00Z",
+            "tags": [
+                "brazil",
+                "telegram",
+                "censorship"
+            ],
+            "test_names": [
+                "telegram"
+            ],
+            "title": "Brazil blocked Telegram",
+            "update_time": "2023-10-25T11:06:05Z"
+        },
+        {
+            "ASNs": [
+                14868,
+                18881,
+                262354,
+                262595,
+                262777,
+                262907,
+                263332,
+                263349,
+                264294,
+                265428,
+                26599,
+                26615,
+                268490,
+                268701,
+                269217,
+                270944,
+                27699,
+                28126,
+                28210,
+                28573,
+                28669,
+                52765,
+                52795,
+                53006,
+                7738,
+                8167
+            ],
+            "CCs": [
+                "BR"
+            ],
+            "create_time": "2024-09-03T12:08:27Z",
+            "domains": [
+                "twitter.com"
+            ],
+            "email_address": null,
+            "end_time": null,
+            "event_type": "incident",
+            "id": "174962608001",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Elizaveta Yachmeneva",
+            "short_description": "This report shares OONI data on the blocking of X (formerly known as Twitter) in Brazil in August 2024.",
+            "start_time": "2024-08-31T00:00:00Z",
+            "tags": [
+                "twitter",
+                "censorship",
+                "social media"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Brazil blocked Twitter/X",
+            "update_time": "2024-09-05T12:47:41Z"
+        },
+        {
+            "ASNs": [],
+            "CCs": [
+                "KH"
+            ],
+            "create_time": "2023-11-01T18:50:16Z",
+            "domains": [
+                "vodenglish.news",
+                "vodkhmer.news",
+                "vodhotnews.com"
+            ],
+            "email_address": null,
+            "end_time": null,
+            "event_type": "incident",
+            "id": "382061061001",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Elizaveta Yachmeneva, Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of the media outlet, Voice of Democracy (VOD), in Cambodia. ",
+            "start_time": "2023-02-13T19:40:00Z",
+            "tags": [
+                "cambodia",
+                "vod",
+                "media",
+                "censorship"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Cambodia blocked access to Voice of Democracy (VOD)",
+            "update_time": "2023-11-01T18:50:16Z"
+        },
+        {
+            "ASNs": [
+                131207,
+                24492,
+                38901,
+                45498
+            ],
+            "CCs": [
+                "KH"
+            ],
+            "create_time": "2023-11-30T16:00:19Z",
+            "domains": [
+                "www.cambodiadaily.com",
+                "english.cambodiadaily.com",
+                "www.camnews.org",
+                "www.dtn7.com",
+                "www.rfa.org",
+                "kamnotra.io"
+            ],
+            "email_address": null,
+            "end_time": null,
+            "event_type": "incident",
+            "id": "373150675601",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou, Elizaveta Yachmeneva",
+            "short_description": "This report shares OONI data on the ongoing blocking of news media websites in Cambodia. The blocks appear to have started a week ahead of Cambodia's 2023 general elections.",
+            "start_time": "2023-07-17T00:00:00Z",
+            "tags": [
+                "censorship",
+                "The Cambodia Daily",
+                "RFA",
+                "Cambodia News",
+                "Kamnotra",
+                "Deum Tnot News"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Cambodia blocked independent media websites ahead of 2023 general elections",
+            "update_time": "2023-11-30T16:00:19Z"
+        },
+        {
+            "ASNs": [
+                4538,
+                4134,
+                4837,
+                56040,
+                9808
+            ],
+            "CCs": [
+                "CN"
+            ],
+            "create_time": "2023-10-31T13:48:34Z",
+            "domains": [
+                "f-droid.org"
+            ],
+            "email_address": null,
+            "end_time": null,
+            "event_type": "incident",
+            "id": "206551055901",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Elizaveta Yachmeneva, Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of F-Droid in China.",
+            "start_time": "2023-06-22T00:00:00Z",
+            "tags": [
+                "china",
+                "f-droid",
+                "censorship"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "China started blocking F-Droid",
+            "update_time": "2023-11-25T12:01:37Z"
+        },
+        {
+            "ASNs": [],
+            "CCs": [
+                "CN"
+            ],
+            "create_time": "2023-10-31T13:48:34Z",
+            "domains": [
+                "ooni.org"
+            ],
+            "email_address": null,
+            "end_time": null,
+            "event_type": "incident",
+            "id": "57494519801",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou, Elizaveta Yachmeneva",
+            "short_description": "This report shares OONI data on the blocking of OONI in China.",
+            "start_time": "2023-07-07T13:13:00Z",
+            "tags": [
+                "china",
+                "ooni",
+                "ooniprobe",
+                "censorship"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "China started blocking OONI",
+            "update_time": "2023-10-25T10:24:16Z"
+        },
+        {
+            "ASNs": [
+                63859,
+                24203,
+                4761,
+                7713
+            ],
+            "CCs": [
+                "ID"
+            ],
+            "create_time": "2024-07-30T10:01:51Z",
+            "domains": [
+                "duckduckgo.com"
+            ],
+            "email_address": null,
+            "end_time": null,
+            "event_type": "incident",
+            "id": "282511010901",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Elizaveta Yachmeneva, Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of DuckDuckGo search engine in Indonesia in July 2024.",
+            "start_time": "2024-07-29T00:00:00Z",
+            "tags": [
+                "censorship",
+                "search engine",
+                "duckduckgo",
+                "indonesia"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "DuckDuckGo search engine blocked in Indonesia",
+            "update_time": "2024-07-30T10:01:51Z"
+        },
+        {
+            "ASNs": [
+                8452,
+                24835,
+                37069,
+                36935
+            ],
+            "CCs": [
+                "EG"
+            ],
+            "create_time": "2023-11-25T15:05:31Z",
+            "domains": [
+                "proton.me",
+                "protonvpn.com"
+            ],
+            "email_address": null,
+            "end_time": null,
+            "event_type": "incident",
+            "id": "318597244501",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of Proton privacy services in Egypt.",
+            "start_time": "2023-06-01T00:00:00Z",
+            "tags": [
+                "censorship",
+                "proton",
+                "protonvpn"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Egypt started blocking Proton privacy services",
+            "update_time": "2023-11-25T15:05:31Z"
+        },
+        {
+            "ASNs": [],
+            "CCs": [
+                "ET"
+            ],
+            "create_time": "2023-10-31T13:48:34Z",
+            "domains": [
+                "www.facebook.com",
+                "www.tiktok.com",
+                "telegram.org",
+                "www.youtube.com"
+            ],
+            "email_address": null,
+            "end_time": "2023-07-17T17:07:00Z",
+            "event_type": "incident",
+            "id": "186069533301",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of social media platforms in Ethiopia amid February 2023 church split tensions.",
+            "start_time": "2023-02-09T17:07:00Z",
+            "tags": [
+                "ethiopia",
+                "social media",
+                "censorship",
+                "facebook",
+                "tiktok",
+                "youtube",
+                "telegram"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Ethiopia blocked social media amid church split tensions",
+            "update_time": "2023-10-20T15:20:43Z"
+        },
+        {
+            "ASNs": [
+                37461,
+                37665
+            ],
+            "CCs": [
+                "GN"
+            ],
+            "create_time": "2023-11-30T13:53:11Z",
+            "domains": [
+                "www.facebook.com",
+                "twitter.com",
+                "www.instagram.com",
+                "www.youtube.com"
+            ],
+            "email_address": null,
+            "end_time": "2024-02-22T00:00:00Z",
+            "event_type": "incident",
+            "id": "296303006301",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of WhatsApp, Telegram, Twitter, Facebook, Instagram and Youtube in Guinea between November 2023 to February 2024.",
+            "start_time": "2023-11-24T00:00:00Z",
+            "tags": [
+                "censorship",
+                "whatsapp",
+                "telegram",
+                "facebook",
+                "twitter",
+                "instagram",
+                "youtube"
+            ],
+            "test_names": [
+                "web_connectivity",
+                "telegram",
+                "whatsapp"
+            ],
+            "title": "Guinea blocked WhatsApp, Telegram, Facebook, Twitter, Instagram, and YouTube",
+            "update_time": "2024-02-23T13:58:52Z"
+        },
+        {
+            "ASNs": [
+                37461,
+                37612
+            ],
+            "CCs": [
+                "GN"
+            ],
+            "create_time": "2023-10-31T13:48:34Z",
+            "domains": [
+                "www.facebook.com",
+                "www.instagram.com",
+                "web.whatsapp.com",
+                "web.telegram.org",
+                "www.youtube.com",
+                "www.snapchat.com"
+            ],
+            "email_address": null,
+            "end_time": "2023-05-23T00:00:00Z",
+            "event_type": "incident",
+            "id": "394000980901",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou, Elizaveta Yachmeneva",
+            "short_description": "This report shares OONI data on the blocking of social media in Guinea in May 2023 amid protests.",
+            "start_time": "2023-05-17T00:00:00Z",
+            "tags": [
+                "guinea",
+                "social media",
+                "facebook",
+                "whatsapp",
+                "instagram",
+                "telegram",
+                "youtube",
+                "snapchat",
+                "censorship"
+            ],
+            "test_names": [
+                "web_connectivity",
+                "whatsapp",
+                "telegram"
+            ],
+            "title": "Guinea blocked social media amid protests",
+            "update_time": "2023-11-25T11:56:47Z"
+        },
+        {
+            "ASNs": [
+                203214,
+                209193
+            ],
+            "CCs": [
+                "IQ"
+            ],
+            "create_time": "2023-11-24T13:58:33Z",
+            "domains": [],
+            "email_address": null,
+            "end_time": "2023-08-13T00:00:00Z",
+            "event_type": "incident",
+            "id": "64077907701",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou, Elizaveta Yachmeneva",
+            "short_description": "This report shares OONI data on the temporary blocking of Telegram in Iraq in August 2023.",
+            "start_time": "2023-08-05T00:00:00Z",
+            "tags": [
+                "censorship",
+                "telegram"
+            ],
+            "test_names": [
+                "telegram"
+            ],
+            "title": "Iraq temporarily blocked Telegram",
+            "update_time": "2023-11-24T13:58:33Z"
+        },
+        {
+            "ASNs": [
+                12849,
+                1680,
+                6810
+            ],
+            "CCs": [
+                "IL"
+            ],
+            "create_time": "2024-07-04T14:28:35Z",
+            "domains": [
+                "www.aljazeera.com",
+                "www.aljazeera.net"
+            ],
+            "email_address": null,
+            "end_time": null,
+            "event_type": "incident",
+            "id": "62771144901",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Elizaveta Yachmeneva, Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of Al-Jazeera's services in Israel in May 2024.",
+            "start_time": "2024-05-05T00:00:00Z",
+            "tags": [
+                "censorship",
+                "media",
+                "Al-Jazeera"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Israel blocks Al-Jazeera following decision to suspend its services",
+            "update_time": "2024-07-04T15:31:20Z"
+        },
+        {
+            "ASNs": [],
+            "CCs": [
+                "JO"
+            ],
+            "create_time": "2023-10-31T13:48:34Z",
+            "domains": [
+                "www.grindr.com",
+                "cdns.grindr.com",
+                "grindr.mobi"
+            ],
+            "email_address": null,
+            "end_time": null,
+            "event_type": "incident",
+            "id": "179818906201",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou, Elizaveta Yachmeneva",
+            "short_description": "This report shares OONI data on the blocking of Grindr in Jordan.",
+            "start_time": "2023-08-08T14:37:00Z",
+            "tags": [
+                "jordan",
+                "grindr",
+                "censorship"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Jordan blocked Grindr",
+            "update_time": "2023-10-25T11:46:35Z"
+        },
+        {
+            "ASNs": [
+                12455,
+                33771
+            ],
+            "CCs": [
+                "KE"
+            ],
+            "create_time": "2023-11-24T11:50:30Z",
+            "domains": [],
+            "email_address": null,
+            "end_time": "2023-11-24T00:00:00Z",
+            "event_type": "incident",
+            "id": "228466228201",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of Telegram in Kenya amid the KCSE 2023 exams.",
+            "start_time": "2023-11-08T00:00:00Z",
+            "tags": [
+                "censorship",
+                "telegram",
+                "kcse",
+                "exams"
+            ],
+            "test_names": [
+                "telegram"
+            ],
+            "title": "Kenya blocked Telegram during the KCSE 2023 exams",
+            "update_time": "2023-11-28T15:29:44Z"
+        },
+        {
+            "ASNs": [
+                206351,
+                29061,
+                41750,
+                47237,
+                50223
+            ],
+            "CCs": [
+                "KG"
+            ],
+            "create_time": "2024-04-30T17:05:45Z",
+            "domains": [
+                "www.tiktok.com"
+            ],
+            "email_address": null,
+            "end_time": null,
+            "event_type": "incident",
+            "id": "154621229001",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Elizaveta Yachmeneva, Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of TikTok in Kyrgyzstan in April 2024.",
+            "start_time": "2024-04-18T00:00:00Z",
+            "tags": [
+                "censorship",
+                "tiktok",
+                "social media"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Kyrgyzstan blocked TikTok",
+            "update_time": "2024-04-30T17:05:45Z"
+        },
+        {
+            "ASNs": [
+                4788,
+                4818,
+                9930
+            ],
+            "CCs": [
+                "MY"
+            ],
+            "create_time": "2024-05-01T10:33:42Z",
+            "domains": [
+                "www.grindr.com"
+            ],
+            "email_address": null,
+            "end_time": null,
+            "event_type": "incident",
+            "id": "44213966401",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of Grindr in Malaysia in April 2024.",
+            "start_time": "2024-04-17T00:00:00Z",
+            "tags": [
+                "censorship",
+                "grindr",
+                "lgbtq+"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Malaysia blocked Grindr",
+            "update_time": "2024-05-01T10:33:42Z"
+        },
+        {
+            "ASNs": [
+                10030,
+                4788,
+                4818,
+                9534,
+                38466,
+                45960
+            ],
+            "CCs": [
+                "MY"
+            ],
+            "create_time": "2023-12-19T09:07:46Z",
+            "domains": [
+                "www.malaysianow.com",
+                "weechookeong.com"
+            ],
+            "email_address": null,
+            "end_time": null,
+            "event_type": "incident",
+            "id": "178720534001",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of news media outlet MalaysiaNow and of a website which belongs to a former Malaysian Member of Parliament (Wee Choo Keong). ",
+            "start_time": "2023-06-28T00:00:00Z",
+            "tags": [
+                "censorship",
+                "MalaysiaNow",
+                "Wee Choo Keong"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Malaysia blocked MalaysiaNow and website of former MP",
+            "update_time": "2023-12-19T09:07:46Z"
+        },
+        {
+            "ASNs": [
+                17501,
+                38565
+            ],
+            "CCs": [
+                "NP"
+            ],
+            "create_time": "2023-12-04T14:27:19Z",
+            "domains": [
+                "www.tiktok.com",
+                "m.tiktok.com",
+                "p16-sign-sg.tiktokcdn.com"
+            ],
+            "email_address": null,
+            "end_time": "2024-08-22T00:00:00Z",
+            "event_type": "incident",
+            "id": "112092297601",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of TikTok in Nepal. ",
+            "start_time": "2023-11-24T00:00:00Z",
+            "tags": [
+                "censorship",
+                "tiktok"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Nepal blocked TikTok",
+            "update_time": "2024-08-23T12:31:20Z"
+        },
+        {
+            "ASNs": [
+                59257,
+                17557,
+                136384
+            ],
+            "CCs": [
+                "PK"
+            ],
+            "create_time": "2024-02-07T14:52:41Z",
+            "domains": [
+                "www.insaf.pk",
+                "pticandidates.com",
+                "factfocus.com"
+            ],
+            "email_address": null,
+            "end_time": null,
+            "event_type": "incident",
+            "id": "108298926901",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of an investigative news platform (Fact Focus), as well as on the blocking of the websites of the Pakistan Tehreek-e-Insaf (PTI) political party in Pakistan leading up to the country's 2024 general elections.",
+            "start_time": "2024-01-26T00:00:00Z",
+            "tags": [
+                "PTI",
+                "Fact Focus",
+                "censorship",
+                "elections"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Pakistan blocked PTI political party sites and investigative news platform ahead of 2024 elections",
+            "update_time": "2024-02-07T14:52:41Z"
+        },
+        {
+            "ASNs": [
+                136525,
+                17557,
+                23674,
+                59257,
+                9541
+            ],
+            "CCs": [
+                "PK"
+            ],
+            "create_time": "2023-10-31T13:48:34Z",
+            "domains": [
+                "www.wikipedia.org"
+            ],
+            "email_address": null,
+            "end_time": "2023-02-06T00:00:00Z",
+            "event_type": "incident",
+            "id": "352315080001",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the temporary blocking of Wikipedia in Pakistan in February 2023.",
+            "start_time": "2023-02-01T00:00:00Z",
+            "tags": [
+                "pakistan",
+                "wikipedia",
+                "censorship"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Pakistan blocked Wikipedia",
+            "update_time": "2023-11-25T11:48:18Z"
+        },
+        {
+            "ASNs": [],
+            "CCs": [
+                "PK"
+            ],
+            "create_time": "2023-10-31T13:48:34Z",
+            "domains": [
+                "www.facebook.com",
+                "twitter.com",
+                "www.youtube.com",
+                "www.instagram.com"
+            ],
+            "email_address": null,
+            "end_time": "2023-05-17T17:30:00Z",
+            "event_type": "incident",
+            "id": "300902917301",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou, Elizaveta Yachmeneva",
+            "short_description": "This report shares OONI data on the blocking of Facebook, Twitter, YouTube, and Instagram in Pakistan following the arrest of the former Prime Minister.",
+            "start_time": "2023-05-09T17:30:00Z",
+            "tags": [
+                "pakistan",
+                "facebook",
+                "twitter",
+                "youtube",
+                "instagram",
+                "censorship"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Pakistan blocked social media following arrest of former Prime Minister",
+            "update_time": "2023-10-25T14:37:09Z"
+        },
+        {
+            "ASNs": [],
+            "CCs": [
+                "PK"
+            ],
+            "create_time": "2023-10-31T13:48:34Z",
+            "domains": [
+                "www.dw.com"
+            ],
+            "email_address": null,
+            "end_time": "2023-03-23T14:50:00Z",
+            "event_type": "incident",
+            "id": "73767321701",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of Deutsche Welle (DW) in Pakistan.",
+            "start_time": "2023-01-16T14:50:00Z",
+            "tags": [
+                "pakistan",
+                "dw",
+                "media",
+                "censorship"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Pakistan started blocking Deutsche Welle (DW)",
+            "update_time": "2023-10-20T12:52:27Z"
+        },
+        {
+            "ASNs": [
+                8346
+            ],
+            "CCs": [
+                "SN"
+            ],
+            "create_time": "2024-04-30T16:49:43Z",
+            "domains": [
+                "www.tiktok.com"
+            ],
+            "email_address": null,
+            "end_time": "2024-02-17T00:00:00Z",
+            "event_type": "incident",
+            "id": "144156914701",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of TikTok in Senegal between August 2023 to February 2024.",
+            "start_time": "2023-08-02T00:00:00Z",
+            "tags": [
+                "censorship",
+                "tiktok",
+                "social media"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Senegal blocked TikTok",
+            "update_time": "2024-04-30T16:49:43Z"
+        },
+        {
+            "ASNs": [
+                8346,
+                37649,
+                37196
+            ],
+            "CCs": [
+                "SN"
+            ],
+            "create_time": "2023-10-31T13:48:34Z",
+            "domains": [
+                "twitter.com",
+                "www.youtube.com",
+                "www.facebook.com",
+                "www.tiktok.com",
+                "www.instagram.com",
+                "telegram.org",
+                "www.whatsapp.com",
+                "web.telegram.org"
+            ],
+            "email_address": null,
+            "end_time": "2023-06-07T00:00:00Z",
+            "event_type": "incident",
+            "id": "25060018801",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of Facebook, WhatsApp, Instagram, YouTube, Twitter, TikTok and Telegram in Senegal amid political unrest. ",
+            "start_time": "2023-06-01T00:00:00Z",
+            "tags": [
+                "senegal",
+                "social media",
+                "censorship",
+                "twitter",
+                "youtube",
+                "facebook",
+                "tiktok",
+                "instagram",
+                "telegram",
+                "whatsapp"
+            ],
+            "test_names": [
+                "web_connectivity",
+                "whatsapp",
+                "telegram"
+            ],
+            "title": "Senegal blocked social media amid political unrest",
+            "update_time": "2023-11-25T11:59:10Z"
+        },
+        {
+            "ASNs": [
+                33765,
+                327885,
+                37084
+            ],
+            "CCs": [
+                "TZ"
+            ],
+            "create_time": "2023-11-23T15:36:22Z",
+            "domains": [
+                "www.clubhouse.com"
+            ],
+            "email_address": null,
+            "end_time": null,
+            "event_type": "incident",
+            "id": "185407756401",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of Clubhouse in Tanzania.",
+            "start_time": "2023-08-13T00:00:00Z",
+            "tags": [
+                "censorship",
+                "clubhouse",
+                "social media"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Tanzania blocked Clubhouse",
+            "update_time": "2023-11-25T12:04:33Z"
+        },
+        {
+            "ASNs": [],
+            "CCs": [
+                "TZ"
+            ],
+            "create_time": "2023-11-23T14:39:27Z",
+            "domains": [
+                "www.grindr.com"
+            ],
+            "email_address": null,
+            "end_time": null,
+            "event_type": "incident",
+            "id": "203466718601",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of Grindr in Tanzania.",
+            "start_time": "2023-03-21T16:32:00Z",
+            "tags": [
+                "censorship",
+                "grindr",
+                "lgbtq"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Tanzania blocked Grindr",
+            "update_time": "2023-11-23T14:39:27Z"
+        },
+        {
+            "ASNs": [
+                36908,
+                36909,
+                37035,
+                37133
+            ],
+            "CCs": [
+                "TZ"
+            ],
+            "create_time": "2024-09-03T12:14:07Z",
+            "domains": [
+                "twitter.com"
+            ],
+            "email_address": null,
+            "end_time": "2024-08-31T00:00:00Z",
+            "event_type": "incident",
+            "id": "188763810301",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the blocking of X (formerly known as Twitter) in Tanzania on 30th August 2024.",
+            "start_time": "2024-08-30T00:00:00Z",
+            "tags": [
+                "twitter",
+                "social media",
+                "censorship"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Tanzania blocked Twitter/X",
+            "update_time": "2024-09-05T12:46:32Z"
+        },
+        {
+            "ASNs": [
+                202561,
+                15897,
+                34984
+            ],
+            "CCs": [
+                "TR"
+            ],
+            "create_time": "2023-10-31T13:48:34Z",
+            "domains": [
+                "twitter.com"
+            ],
+            "email_address": null,
+            "end_time": "2023-02-09T00:00:00Z",
+            "event_type": "incident",
+            "id": "279627325801",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Maria Xynou",
+            "short_description": "This report shares OONI data on the throttling and DNS-based blocking of Twitter in Turkey on 8th February 2023, following a deadly earthquake. ",
+            "start_time": "2023-02-08T00:00:00Z",
+            "tags": [
+                "turkey",
+                "twitter",
+                "throttling",
+                "censorship"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "Turkey blocked Twitter following deadly earthquake",
+            "update_time": "2023-11-25T11:51:58Z"
+        },
+        {
+            "ASNs": [
+                20978,
+                12735,
+                201411,
+                47524,
+                47331,
+                9121
+            ],
+            "CCs": [
+                "TR"
+            ],
+            "create_time": "2024-08-02T11:07:49Z",
+            "domains": [
+                "www.instagram.com"
+            ],
+            "email_address": null,
+            "end_time": "2024-08-10T00:00:00Z",
+            "event_type": "incident",
+            "id": "330022197701",
+            "links": [],
+            "mine": 0,
+            "published": true,
+            "reported_by": "Elizaveta Yachmeneva",
+            "short_description": "This report shares OONI data on the blocking of Instagram in Turkey in August 2024.",
+            "start_time": "2024-08-02T00:00:00Z",
+            "tags": [
+                "instagram",
+                "censorship",
+                "turkiye"
+            ],
+            "test_names": [
+                "web_connectivity"
+            ],
+            "title": "T\u00fcrkiye blocked Instagram",
+            "update_time": "2024-08-21T10:18:42Z"
+        }
+    ],
+    "v": 1
+}

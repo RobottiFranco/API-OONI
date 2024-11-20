@@ -1,0 +1,37 @@
+{
+    "incident": {
+        "ASNs": [
+            24432,
+            24389
+        ],
+        "CCs": [
+            "BD"
+        ],
+        "create_time": "2024-07-18T05:31:10Z",
+        "domains": [
+            "www.facebook.com"
+        ],
+        "email_address": null,
+        "end_time": null,
+        "event_type": "incident",
+        "id": "45013413801",
+        "links": [],
+        "mine": 0,
+        "published": true,
+        "reported_by": "Elizaveta Yachmeneva",
+        "short_description": "This report shares OONI data on the blocking of Facebook in Bangladesh between 16th July 2024 to 17th July 2024.",
+        "start_time": "2024-07-16T00:00:00Z",
+        "tags": [
+            "facebook",
+            "censorship",
+            "bangladesh"
+        ],
+        "test_names": [
+            "web_connectivity"
+        ],
+        "text": "Since 16th July 2024, OONI data suggests that Facebook is inaccessible on [AS24432](https://explorer.ooni.org/m/20240716200350.966415_BD_webconnectivity_921a95b91bc1bdd3) (Axiata) and [AS24389](https://explorer.ooni.org/m/20240716172647.769708_BD_webconnectivity_9e7c087cc444d1ee) (grameenphone) networks in Bangladesh. The timing of the block coincides with the [protests against a quota system for jobs in the public sector](https://www.reuters.com/world/asia-pacific/bangladesh-deploys-police-job-protests-flare-up-2024-07-16/) in Dhaka. \n\nThe following [chart](https://explorer.ooni.org/chart/mat?probe_cc=BD&probe_asn=24389%2C24432&since=2024-07-10&until=2024-07-18&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.facebook.com) aggregates OONI measurement coverage from the [testing](https://ooni.org/nettest/web-connectivity/) of `www.facebook.com` on the [AS24432](https://explorer.ooni.org/m/20240716200350.966415_BD_webconnectivity_921a95b91bc1bdd3) (Axiata) and [AS24389](https://explorer.ooni.org/m/20240716172647.769708_BD_webconnectivity_9e7c087cc444d1ee) (grameenphone) networks in Bangladesh between 10th July 2024 to 17th July 2024.\n\n<MAT link=\"https://explorer.ooni.org/chart/mat?probe_cc=BD&probe_asn=24389%2C24432&since=2024-07-10&until=2024-07-18&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.facebook.com\" caption=\"**Chart:** OONI Probe testing of `www.facebook.com` in Bangladesh between 10th July 2024 to 17th July 2024 on AS24432 (Axiata) and AS24389 (grameenphone) networks (source: [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=BD&probe_asn=24389%2C24432&since=2024-07-10&until=2024-07-18&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.facebook.com)).\"/>\n\nAs can be seen on the [chart](https://explorer.ooni.org/chart/mat?probe_cc=BD&probe_asn=24389%2C24432&since=2024-07-10&until=2024-07-18&time_grain=day&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity&domain=www.facebook.com), most measurements for `www.facebook.com` result in [anomalies](https://ooni.org/support/interpreting-ooni-data/#anomalies) (signals of potential censorship) on 16th and 17th July 2024, the days of the [protests](https://www.reuters.com/world/asia-pacific/bangladesh-deploys-police-job-protests-flare-up-2024-07-16/) in Dhaka. While the number of measurements from these networks from the previous days is very limited, most measurements from both networks on 16th and 17th July 2024 result in failures ([timeout errors](https://explorer.ooni.org/m/20240717082919.245093_BD_webconnectivity_740ef4a92c6e58a5) and [connection reset errors](https://explorer.ooni.org/m/20240716174236.351512_BD_webconnectivity_319be948792b4860)) during the TLS handshake, suggesting the presence of TLS level interference.\n\nQuite similarly, [OONI data](https://explorer.ooni.org/chart/mat?probe_cc=BD&probe_asn=24389%2C24432&since=2024-07-17&until=2024-07-18&time_grain=hour&axis_x=measurement_start_day&axis_y=probe_asn&test_name=whatsapp) suggests the **potential** temporary blocking of WhatsApp on 17th July 2024 between 7:00 to 9:00 am UTC. More specifically, OONI data from the [testing of WhatsApp](https://ooni.org/nettest/whatsapp/) in Bangladesh on 17th July 2024 shows that while most connections to WhatsApp endpoints succeeded, attempted connections to WhatsApp\u2019s registration service and WhatsApp Web failed, resulting in [connection reset errors](https://explorer.ooni.org/m/20240717074637.449725_BD_whatsapp_e9b5a10845b26966). However, the limited volume of measurement coverage during this period limits our ability to confirm WhatsApp blocking with confidence. \n\nIf you are in Bangladesh, you can contribute more measurements by running [OONI Probe](https://ooni.org/install/).",
+        "title": "Bangladesh blocked Facebook amid student protests",
+        "update_time": "2024-08-21T10:18:10Z"
+    },
+    "v": 1
+}
